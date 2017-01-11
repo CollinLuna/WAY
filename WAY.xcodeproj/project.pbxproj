@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9F93CCB41E2525C400400E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CCB31E2525C400400E1B /* AppDelegate.swift */; };
-		9F93CCB61E2525C400400E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CCB51E2525C400400E1B /* ViewController.swift */; };
+		9F93CCB61E2525C400400E1B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CCB51E2525C400400E1B /* SignInVC.swift */; };
 		9F93CCB91E2525C400400E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CCB71E2525C400400E1B /* Main.storyboard */; };
 		9F93CCBB1E2525C400400E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CCBA1E2525C400400E1B /* Assets.xcassets */; };
 		9F93CCBE1E2525C400400E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CCBC1E2525C400400E1B /* LaunchScreen.storyboard */; };
 		9F93CCC91E2525C400400E1B /* WAYTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CCC81E2525C400400E1B /* WAYTests.swift */; };
 		9F93CCD41E2525C400400E1B /* WAYUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93CCD31E2525C400400E1B /* WAYUITests.swift */; };
+		9F93CD1D1E26CB2400400E1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F93CD1C1E26CB2400400E1B /* GoogleService-Info.plist */; };
+		CB9858A3453D91F6A5CA1BDE /* Pods_WAY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA8DD8787E384EC4255B4D2 /* Pods_WAY.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A228FF3ACF137620F93B35 /* Pods-WAY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAY.release.xcconfig"; path = "Pods/Target Support Files/Pods-WAY/Pods-WAY.release.xcconfig"; sourceTree = "<group>"; };
+		8441C76D169D369153193889 /* Pods-WAY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAY.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WAY/Pods-WAY.debug.xcconfig"; sourceTree = "<group>"; };
 		9F93CCB01E2525C400400E1B /* WAY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F93CCB31E2525C400400E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F93CCB51E2525C400400E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F93CCB51E2525C400400E1B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		9F93CCB81E2525C400400E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F93CCBA1E2525C400400E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F93CCBD1E2525C400400E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		9F93CCCF1E2525C400400E1B /* WAYUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAYUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F93CCD31E2525C400400E1B /* WAYUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAYUITests.swift; sourceTree = "<group>"; };
 		9F93CCD51E2525C400400E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F93CD1C1E26CB2400400E1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ADA8DD8787E384EC4255B4D2 /* Pods_WAY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9858A3453D91F6A5CA1BDE /* Pods_WAY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3931AE92A337C6116FA12136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8441C76D169D369153193889 /* Pods-WAY.debug.xcconfig */,
+				11A228FF3ACF137620F93B35 /* Pods-WAY.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F93CCA71E2525C300400E1B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 				9F93CCC71E2525C400400E1B /* WAYTests */,
 				9F93CCD21E2525C400400E1B /* WAYUITests */,
 				9F93CCB11E2525C400400E1B /* Products */,
+				3931AE92A337C6116FA12136 /* Pods */,
+				B90610132568B9D0D9C21E0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +115,15 @@
 		9F93CCB21E2525C400400E1B /* WAY */ = {
 			isa = PBXGroup;
 			children = (
+				9F93CD1E1E26D11100400E1B /* Model */,
+				9F93CD201E26D12C00400E1B /* Controller */,
+				9F93CD1F1E26D12800400E1B /* View */,
 				9F93CCB31E2525C400400E1B /* AppDelegate.swift */,
-				9F93CCB51E2525C400400E1B /* ViewController.swift */,
 				9F93CCB71E2525C400400E1B /* Main.storyboard */,
 				9F93CCBA1E2525C400400E1B /* Assets.xcassets */,
 				9F93CCBC1E2525C400400E1B /* LaunchScreen.storyboard */,
 				9F93CCBF1E2525C400400E1B /* Info.plist */,
+				9F93CD1C1E26CB2400400E1B /* GoogleService-Info.plist */,
 			);
 			path = WAY;
 			sourceTree = "<group>";
@@ -125,6 +146,36 @@
 			path = WAYUITests;
 			sourceTree = "<group>";
 		};
+		9F93CD1E1E26D11100400E1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F93CD1F1E26D12800400E1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F93CD201E26D12C00400E1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F93CCB51E2525C400400E1B /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B90610132568B9D0D9C21E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8DD8787E384EC4255B4D2 /* Pods_WAY.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F93CCD81E2525C400400E1B /* Build configuration list for PBXNativeTarget "WAY" */;
 			buildPhases = (
+				6070829A1134F9621ECAD9EE /* [CP] Check Pods Manifest.lock */,
 				9F93CCAC1E2525C300400E1B /* Sources */,
 				9F93CCAD1E2525C300400E1B /* Frameworks */,
 				9F93CCAE1E2525C300400E1B /* Resources */,
+				EACE27B5D1742E351BAE0A7A /* [CP] Embed Pods Frameworks */,
+				6DEF6A456EEC4915617992F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F93CCBE1E2525C400400E1B /* LaunchScreen.storyboard in Resources */,
+				9F93CD1D1E26CB2400400E1B /* GoogleService-Info.plist in Resources */,
 				9F93CCBB1E2525C400400E1B /* Assets.xcassets in Resources */,
 				9F93CCB91E2525C400400E1B /* Main.storyboard in Resources */,
 			);
@@ -254,12 +309,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6070829A1134F9621ECAD9EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DEF6A456EEC4915617992F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAY/Pods-WAY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACE27B5D1742E351BAE0A7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WAY/Pods-WAY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F93CCAC1E2525C300400E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F93CCB61E2525C400400E1B /* ViewController.swift in Sources */,
+				9F93CCB61E2525C400400E1B /* SignInVC.swift in Sources */,
 				9F93CCB41E2525C400400E1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +513,7 @@
 		};
 		9F93CCD91E2525C400400E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8441C76D169D369153193889 /* Pods-WAY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WAY/Info.plist;
@@ -422,6 +526,7 @@
 		};
 		9F93CCDA1E2525C400400E1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A228FF3ACF137620F93B35 /* Pods-WAY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WAY/Info.plist;
@@ -505,6 +610,7 @@
 				9F93CCDA1E2525C400400E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F93CCDB1E2525C400400E1B /* Build configuration list for PBXNativeTarget "WAYTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +619,7 @@
 				9F93CCDD1E2525C400400E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F93CCDE1E2525C400400E1B /* Build configuration list for PBXNativeTarget "WAYUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +628,7 @@
 				9F93CCE01E2525C400400E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
